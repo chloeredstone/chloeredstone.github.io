@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="862" viewBox="0 0 1080 862">
+  <defs>
+    <clipPath id="clip-Instagram_Post_1">
+      <rect width="1080" height="862"/>
+    </clipPath>
+  </defs>
+  <g id="Instagram_Post_1" data-name="Instagram Post – 1" clip-path="url(#clip-Instagram_Post_1)">
+    <rect width="1080" height="862" fill="#fff"/>
+    <text id="C" transform="translate(51.5 633)" font-size="525" font-family="YuGothic-Medium, Yu Gothic" font-weight="500"><tspan x="0" y="0">C</tspan></text>
+    <text id="R" transform="translate(674.5 635)" font-size="527" font-family="YuGothic-Medium, Yu Gothic" font-weight="500"><tspan x="0" y="0">R</tspan></text>
+    <line id="Line_1" data-name="Line 1" y2="767.183" transform="translate(551.074 31.5)" fill="none" stroke="#000" stroke-linecap="square" stroke-width="9"/>
+  </g>
+</svg>

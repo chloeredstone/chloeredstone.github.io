@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="clip-favicon.ico">
+      <rect width="32" height="32"/>
+    </clipPath>
+  </defs>
+  <g id="favicon.ico" clip-path="url(#clip-favicon.ico)">
+    <rect width="32" height="32" fill="#fff"/>
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="15.5" cy="15.5" r="15.5" transform="translate(1 1)" fill="#fff"/>
+    <text id="R" transform="translate(20.008 21.779)" font-size="15" font-family="YuGothic-Medium, Yu Gothic" font-weight="500"><tspan x="0" y="0">R</tspan></text>
+    <line id="Line_2" data-name="Line 2" y2="23.418" transform="translate(16.5 4.291)" fill="none" stroke="#000" stroke-linecap="square" stroke-width="0.75"/>
+    <text id="C" transform="translate(1.992 21.779)" font-size="15" font-family="YuGothic-Medium, Yu Gothic" font-weight="500"><tspan x="0" y="0">C</tspan></text>
+  </g>
+</svg>
