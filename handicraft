@@ -3,8 +3,30 @@
   <head>
     <meta charset="utf-8">
     <title>HandiCraft Project</title>
+    <meta name="Author" content="Chloe Redstone">
+    <meta name="description" content="Chloe Redstone is a UI designer with experience in frontend development">
   </head>
   <body>
-
+    <header>
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="443" height="343" viewBox="0 0 443 343">
+        <defs>
+          <clipPath id="clip-MyLogo">
+            <rect width="443" height="343"/>
+          </clipPath>
+        </defs>
+        <g id="MyLogo" clip-path="url(#clip-MyLogo)">
+          <rect width="443" height="343" fill="#fff"/>
+          <text id="C" transform="translate(40.5 249.089)" font-size="189" font-family="YuGothic-Medium, Yu Gothic" font-weight="500"><tspan x="0" y="0">C</tspan></text>
+          <text id="R" transform="translate(266.138 250.089)" font-size="190" font-family="YuGothic-Medium, Yu Gothic" font-weight="500"><tspan x="0" y="0">R</tspan></text>
+          <line id="Line_1" data-name="Line 1" y2="277.858" transform="translate(221.435 32.571)" fill="none" stroke="#000" stroke-linecap="square" stroke-width="5"/>
+        </g>
+      </svg>
+      <nav>
+        <ul>
+          <li><a href="index.html">Projects</a></li>
+          <li><a href="about.html">Profile</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
   </body>
 </html>
