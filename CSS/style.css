@@ -1,6 +1,10 @@
 img {
   width: 100%;
 }
+nav {
+  text-align: center;
+
+}
 body {
   background-color: white;
   font-family: 'Montserrat';
@@ -11,6 +15,7 @@ body {
 }
 h1, h2, h3, h4 {
   line-height: 1.4;
+  text-align: center;
 }
 h1 {
   font-size: 2.75em;
@@ -25,23 +30,56 @@ h3 {
   font-weight: 400px;
 }
 a:visited {
-  color: #000000;
+  color: #ffffff;
+  text-decoration-line: none;
 }
 a:active {
-  color: #45692C;
+  color: #4D3D2D;
+  text-decoration-line: none;
 }
 a:hover,
 a:focus {
-  color: #45692C;
-  text-decoration: underline;
+  color: #000000;
+  text-decoration-line: none;
 }
+p {
+  text-align: center;
+}
+
 .button {
-  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #ff7f50;
-  color: #ffffff; /* needed to override the default link color */
+  display: inline-block;
+  background-color: #8D7053;
+  color: #ffffff;
   font-weight: 400;
-  padding: 10px;
-  border-radius: 3px;
-  border-bottom: 2px solid #994c30; /* width of the border, type, color */
+  padding: 15px;
+  border-radius: 5px;
   transition: 0.2s opacity;
+  text-decoration: none;
 }
+<style>
+.relative {
+ padding: 20px;
+ position: relative;
+ background-color: #fff;
+ margin: 20px;
+}
+.navitem {
+  display: inline-block;
+  width: 70px;
+  height: 30px;
+  text-align: center;
+  border: #E8562A ;
+  background-color: #E8562A;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+.social {
+  text-align: center;
+  image-orientation: centered;
+}
+.contact {
+  text-align: center;
+}
+
+</style>
