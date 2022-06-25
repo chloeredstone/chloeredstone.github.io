@@ -72,6 +72,8 @@ p {
 .button:active {
   background-color: #8D7053;
   opacity: 0.7;
+  text-decoration-color: #000000;
+  font-weight: bold;
 }
 header {
   background-color: #8D7053;
