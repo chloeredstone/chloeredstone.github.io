@@ -34,6 +34,9 @@ h3 {
   font-size: 1.57em;
   font-weight: 400px;
 }
+h4 {
+  margin: 20px;
+}
 a {
   color: #000000;
   text-decoration: none;
@@ -56,8 +59,8 @@ a:focus {
 p {
   text-align: center;
   margin: 15px;
+  Padding: 5px;
 }
-
 .button {
   display: inline-block;
   background-color: #8D7053;
@@ -68,6 +71,7 @@ p {
   transition: 0.2s
   text-decoration: none;
   opacity: 0.8;
+  margin: 5px;
 }
 .button:active {
   background-color: #8D7053;
@@ -77,8 +81,9 @@ p {
 }
 header {
   background-color: #8D7053;
-  margin: 10px;
   padding: 10px;
+  box-shadow: 3px 3px 3px 3px rgba(50, 50, 50, 0.30);
+  position: relative;
 }
 <style>
 .relative {
@@ -104,5 +109,25 @@ header {
 }
 .contact {
   text-align: center;
+}
+.row {
+  margin: 25px 0;
+}
+.container {
+  text-align: center;
+}
+.container h3 {
+  font-weight: normal;
+}
+.hero {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+.hero h2 {
+  font-weight: normal;
+}
+.quote {
+  font-weight: bold;
+  font-size: 20px;
 }
 </style>
