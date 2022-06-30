@@ -47,15 +47,14 @@ a:visited {
   text-decoration-line: none;
 }
 a:active {
-  color: #8D7053;
+  color: #000000;
   text-decoration-line: none;
-  opacity: 0.7;
 }
 a:hover,
 a:focus {
   color: #000000;
   text-decoration-line: none;
-  font-weight: bold;
+  font-weight: normal;
 }
 p {
   text-align: center;
@@ -67,12 +66,18 @@ p {
   background-color: #8D7053;
   color: #ffffff;
   font-weight: 400;
-  padding: 15px;
-  border-radius: 5px;
+  padding: 17px;
+  border-radius:10px;
   transition: 0.2s
   text-decoration: none;
   opacity: 0.8;
   margin: 5px;
+  transition-duration: 0.2s;
+  transition-property: opacity;
+}
+.button: hover {
+  transition-duration: 0.3s;
+    opacity: 0.8;
 }
 .button:active {
   background-color: #8D7053;
@@ -131,6 +136,11 @@ header {
   font-weight: bold;
   font-size: 20px;
 }
+.berlin-illustration {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
 </style>
 
 @media only screen and (min-width: 640px) {
@@ -138,4 +148,33 @@ header {
   text-align: unset;
   padding: 20px 0 13px;
   }
+}
+@keyframes color-change {
+  from {fill: #edc655}
+  to {fill: #f76414}
+}
+@keyframes cloud-move {
+  from {transform: translate(0,50px);}
+  to {transform: translate(200px,50px);}
+}
+@keyframes cloud-move-reverse {
+  from {transform: translate(446px,48px);}
+  to {transform: translate(100px, 48px);}
+}
+.sun {
+  animation-duration: 7s;
+  animation-name: color-change;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+.cloud-front {
+  animation-duration: 25s;
+  animation-name: cloud-move;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+.cloud-back {
+  animation: 34s cloud-move-reverse infinite alternate linear;
 }
