@@ -87,7 +87,7 @@ p {
 }
 header {
   background-color: #8D7053;
-  padding: 10px;
+  padding: 30px;
   box-shadow: 3px 3px 3px 3px rgba(50, 50, 50, 0.30);
   position: relative;
 }
@@ -96,18 +96,23 @@ header {
  padding: 20px;
  position: relative;
  background-color: #fff;
- margin: 50px;
+ margin: 100px;
 }
 .navitem {
-  display: inline-block;
+  display: inline;
+  float: inherit;
   width: 70px;
   height: 30px;
-  text-align: center;
+  position: relative;
   border: #E8562A ;
   background-color: #E8562A;
   color: #fff;
   cursor: pointer;
   font-weight: bold;
+}
+.logo {
+  float: centered;
+image-orientation: centered;
 }
 .social {
   text-align: center;
@@ -148,7 +153,19 @@ header {
   text-align: unset;
   padding: 20px 0 13px;
   }
+  .logo {
+    max-width: 150px;
+  }
 }
+@media only screen and (min-width: 1024px) {
+
+}
+@media only screen and (min-width: 1440px) {
+
+}
+
+
+
 @keyframes color-change {
   from {fill: #edc655}
   to {fill: #f76414}
