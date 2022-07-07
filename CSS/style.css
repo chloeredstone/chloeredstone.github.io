@@ -9,10 +9,12 @@ header {
   position: fixed;
   text-align: center;
 }
+.icon {
+  color: white;
+}
 img {
   width: 100%;
   margin: auto;
-
   height: auto;
   display: block;
 }
@@ -51,7 +53,7 @@ h4 {
   margin: 20px;
 }
 a {
-  color: #000000;
+  color: white;
   text-decoration: none;
   text-align: center;
 }
@@ -113,7 +115,7 @@ nav > ul > li > a {
   color: white;
 }
 main {
-  padding-top: 160px;
+  padding-top: 180px;
 }
 <style>
 
@@ -135,7 +137,7 @@ image-orientation: centered;
 }*/
 
 .logo {
-  max-width: 250px;
+  max-width: 150px;
   text-align: center;
 }
 .contact {
@@ -232,6 +234,7 @@ image-orientation: centered;
   }
   .logo {
     float: left;
+    min-width: 150px;
 
   }
   nav {
@@ -239,6 +242,7 @@ image-orientation: centered;
     float: right;
     margin-top: 4px;
     padding: 25px;
+    color: white;
   }
   img {
     max-width: 515px;
