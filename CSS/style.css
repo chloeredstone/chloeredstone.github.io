@@ -3,7 +3,7 @@
 }
 header {
   background-color: #8D7053;
-  padding: 10px 0;
+  padding: 22px 0 1px;
   width: 100%;
   box-shadow: 3px 3px 3px 3px rgba(50, 50, 50, 0.30);
   position: fixed;
@@ -16,10 +16,14 @@ header {
 }
 .navtoggle li .icon {
   position: absolute;
-  right: 0;
+  right: 5px;
   top: 5px;
   font-size: 20px;
   color: white;
+}
+nav {
+  display: inline-block;
+  width: 100%;
 }
 .icon {
   color: white;
@@ -117,6 +121,7 @@ p {
 nav > ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 nav > ul > li > a {
@@ -240,6 +245,9 @@ image-orientation: centered;
   header {
     text-align: unset;
     padding: 10px 0 10px;
+  }
+  nav > ul {
+    margin: 1em 0;
   }
   nav > ul > li {
     display: inline-block;
