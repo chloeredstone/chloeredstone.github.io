@@ -12,7 +12,7 @@ header {
 img {
   width: 100%;
   margin: auto;
-  width: 365px;
+
   height: auto;
   display: block;
 }
@@ -113,7 +113,7 @@ nav > ul > li > a {
   color: white;
 }
 main {
-  padding-top: 150px;
+  padding-top: 160px;
 }
 <style>
 
@@ -230,6 +230,10 @@ image-orientation: centered;
     text-align: unset;
     padding: 10px 0 10px;
   }
+  .logo {
+    float: left;
+
+  }
   nav {
     width: auto;
     float: right;
@@ -237,7 +241,7 @@ image-orientation: centered;
     padding: 25px;
   }
   img {
-    max-width: 320px;
+    max-width: 515px;
   }
 
   body {
@@ -262,9 +266,14 @@ hr {
   font-size: 15px;
   margin-right: 5px;
 }
+.container {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
 }
 @media only screen and (min-width: 1024px) {
-.col-md-6 {
+[class*="col-"] {
   width: 50%;
   float: left;
 }
@@ -272,13 +281,23 @@ hr {
   width: 930px;
 }
 img {
-  display: block;
-  image-orientation: center;
-  margin-left: 40px;
-  width: 100%;
+  display: inline-block;
+  margin-left: 20px;
+  max-width: 570px;
   height: auto;
 }
-body {
-  font-size: 15px;}
+
+.description {
+  font-size: 10px;
+  padding-right: 10px;
+}
+.quote {
+  font-size: 12px;
+}
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 }
