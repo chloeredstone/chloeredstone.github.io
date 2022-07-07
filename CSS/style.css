@@ -7,7 +7,19 @@ header {
   width: 100%;
   box-shadow: 3px 3px 3px 3px rgba(50, 50, 50, 0.30);
   position: fixed;
-  text-align: center;
+}
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  font-size: 20px;
+  color: white;
 }
 .icon {
   color: white;
@@ -106,9 +118,7 @@ nav > ul {
   list-style-type: none;
   padding: 0;
 }
-nav > ul > li {
-  display: inline-block;
-}
+
 nav > ul > li > a {
   padding: 0 15px;
   font-weight: 400;
@@ -138,7 +148,7 @@ image-orientation: centered;
 
 .logo {
   max-width: 150px;
-  text-align: center;
+  float: left;
 }
 .contact {
   text-align: center;
@@ -149,7 +159,6 @@ image-orientation: centered;
 }
 .container {
   padding: 0 10px;
-  text-align: center;
   image-orientation: center;
 }
 .container h3 {
@@ -232,6 +241,15 @@ image-orientation: centered;
     text-align: unset;
     padding: 10px 0 10px;
   }
+  nav > ul > li {
+    display: inline-block;
+  }
+  .navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+.navtoggle li:last-child {
+  display: none;
+}
   .logo {
     float: left;
     min-width: 150px;
