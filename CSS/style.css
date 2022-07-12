@@ -207,6 +207,12 @@ image-orientation: centered;
 .center {
   text-align: center;
 }
+.social {
+  align-items: center;
+}
+#contact a {
+  color: black;
+}
 </style>
 
 
