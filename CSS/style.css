@@ -213,6 +213,11 @@ image-orientation: centered;
 #contact a {
   color: black;
 }
+.handicraft_img {
+  text-align: center;
+  width: auto;
+
+}
 </style>
 
 
