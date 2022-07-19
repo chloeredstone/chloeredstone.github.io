@@ -40,9 +40,7 @@ nav {
   display: inline-block;
   width: 100%;
 }
-.icon {
-  color: white;
-}
+
 img {
   width: 100%;
   margin: auto;
@@ -59,7 +57,7 @@ body {
   font-size: 16px;
   font-weight: 400px;
   line-height: 1.6;
-  color: #000000;
+  color: #000;
 }
 
 h1, h2, h3, h4 {
@@ -93,12 +91,12 @@ a:visited {
   text-decoration-line: none;
 }
 a:active {
-  color: #000000;
+  color: #000;
   text-decoration-line: none;
 }
 a:hover,
 a:focus {
-  color: #000000;
+  color: #000;
   text-decoration-line: none;
   font-weight: bold;
 }
@@ -109,12 +107,12 @@ p {
 }
 .button {
   display: inline-block;
-  background-color: #8D7053;
+  background-color: #8d7053;
   color: #ffffff;
   font-weight: 400;
   padding: 17px;
-  border-radius:10px;
-  transition: 0.2s
+  border-radius: 10px;
+  transition: 0.2s;
   text-decoration: none;
   opacity: 0.8;
   margin: 5px;
@@ -127,9 +125,9 @@ p {
     opacity: 0.8;
 }
 .button:active {
-  background-color: #8D7053;
+  background-color: #8d7053;
   opacity: 0.7;
-  text-decoration-color: #000000;
+  text-decoration-color: #000;
   font-weight: bold;
 }
 
@@ -144,11 +142,20 @@ nav > ul > li > a {
   font-weight: 400;
   color: white;
 }
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  font-size: 40px;
+}
 main {
   padding-top: 180px;
 }
-<style>
 
+<style>
 /*.navitem {
   display: inline;
   float: left;
@@ -191,8 +198,6 @@ image-orientation: centered;
 .hero h2 {
   font-weight: normal;
 }
-
-
 .quote {
   font-weight: bold;
   font-size: 20px;
@@ -216,7 +221,6 @@ image-orientation: centered;
 .handicraft_img {
   text-align: center;
   width: auto;
-
 }
 </style>
 
